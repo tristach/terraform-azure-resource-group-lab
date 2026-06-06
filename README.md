@@ -53,10 +53,6 @@ resource "azurerm_resource_group" "demo" {
 }
 ```
 
-#### Screenshot
-
-![Terraform Configuration](upload-image-here)
-
 ### 2. Initialize Terraform
 
 Executed:
