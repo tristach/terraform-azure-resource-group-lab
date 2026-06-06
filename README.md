@@ -101,7 +101,14 @@ resource "azurerm_resource_group" "demo" {
 
 ### Terraform Apply
 
-(Add Screenshot Here)
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ae0ec1d8-360c-4d7c-bc9f-9c4b0015407b" />
+
+### Vnet Created
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5b524d2c-81e4-4ead-b660-8111a2a8747d" />
+
+### Subnet Deployed
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bcde1d37-626b-4052-9a8c-445fc73f4d51" />
+
 
 ## Key Takeaways
 
