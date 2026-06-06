@@ -79,15 +79,16 @@ resource "azurerm_resource_group" "demo" {
 
 ### Terraform Configuration
 
-(Add Screenshot Here)
+Created a Terraform configuration file (main.tf) defining an Azure Resource Group using the AzureRM provider.
 
 ### Terraform Initialization
 
-(Add Screenshot Here)
+Initialized the Terraform working directory with terraform init, which downloaded the Azure provider and prepared the environment for deployment.
 
 ### Terraform Plan
 
-(Add Screenshot Here)
+Executed terraform plan to preview infrastructure changes before deployment and verify the expected resources would be created.
+
 ### Terraform Apply
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ae0ec1d8-360c-4d7c-bc9f-9c4b0015407b" />
