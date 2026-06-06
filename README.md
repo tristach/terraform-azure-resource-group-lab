@@ -128,6 +128,8 @@ Executed terraform plan to preview infrastructure changes before deployment and 
 ###Tetraform plan matches: "No changes. Your infrastructure matches the configuration."
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/71601759-2771-4f90-80eb-8f9a54bfa426" />
 
+###  Deleted RG, re-applied from within Azure, then destroyed environment again.
+<img width="341" height="86" alt="image" src="https://github.com/user-attachments/assets/04820567-8714-4379-97d6-8b66521d298c" />
 
 ## Key Takeaways
 
