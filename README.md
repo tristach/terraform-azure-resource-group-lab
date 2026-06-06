@@ -31,17 +31,7 @@ Azure Cloud Shell sessions may not preserve working directories created in tempo
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/af8c2f17-3bc8-4b6b-881e-27a44cb93dc7" />
 
-### Reset for permanent mount.
-
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fe035bec-985c-411f-bd30-daba1f8c9499" />
-
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/90557bc4-a717-4f6a-9ebc-8ae33025796b" />
-
--Created a new storage account on azure cloud shell.
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/920a37d5-c0a1-4093-b82e-5fe69fac1bff" />
--New RG
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/1de00841-13bf-4e26-8048-a02235707dcc" />
--Success
+### Reset for permanent mount
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/daaa9b09-f879-4c7d-b350-f0565c26fcca" />
 
 
