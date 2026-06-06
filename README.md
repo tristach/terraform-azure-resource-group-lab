@@ -98,7 +98,6 @@ resource "azurerm_resource_group" "demo" {
 ### Terraform Plan
 
 (Add Screenshot Here)
-
 ### Terraform Apply
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ae0ec1d8-360c-4d7c-bc9f-9c4b0015407b" />
@@ -108,6 +107,8 @@ resource "azurerm_resource_group" "demo" {
 
 ### Subnet Deployed
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bcde1d37-626b-4052-9a8c-445fc73f4d51" />
+###Tetraform plan matches: "No changes. Your infrastructure matches the configuration."
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/71601759-2771-4f90-80eb-8f9a54bfa426" />
 
 
 ## Key Takeaways
