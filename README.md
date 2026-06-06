@@ -80,6 +80,37 @@ resource "azurerm_resource_group" "demo" {
 ### Terraform Configuration
 
 Created a Terraform configuration file (main.tf) defining an Azure Resource Group using the AzureRM provider.
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~>4.0"
+    }
+  }
+}
+
+provider "azurerm" {
+  features {}
+}
+
+resource "azurerm_resource_group" "lab" {
+  name     = "june-fifth-terraform-demo-rg"
+  location = "East US"
+}
+
+resource "azurerm_virtual_network" "lab_vnet" {
+  name                = "terraform-demo-vnet"
+  address_space       = ["10.0.0.0/16"]
+  location            = azurerm_resource_group.lab.location
+  resource_group_name = azurerm_resource_group.lab.name
+}
+
+resource "azurerm_subnet" "lab_subnet" {
+  name                 = "terraform-demo-subnet"
+  resource_group_name  = azurerm_resource_group.lab.name
+  virtual_network_name = azurerm_virtual_network.lab_vnet.name
+  address_prefixes     = ["10.0.1.0/24"]
+}
 
 ### Terraform Initialization
 
