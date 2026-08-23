@@ -125,15 +125,23 @@ Executed terraform plan to preview infrastructure changes before deployment and 
 
 ### Subnet Deployed
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bcde1d37-626b-4052-9a8c-445fc73f4d51" />
-###Tetraform plan matches: "No changes. Your infrastructure matches the configuration."
+### Tetraform plan matches: "No changes. Your infrastructure matches the configuration."
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/71601759-2771-4f90-80eb-8f9a54bfa426" />
 
 ###  Deleted RG, re-applied from within Azure, then destroyed environment again.
 <img width="341" height="86" alt="image" src="https://github.com/user-attachments/assets/04820567-8714-4379-97d6-8b66521d298c" />
 
+### Completed Terraform Deployment
+<img width="944" height="455" alt="image" src="https://github.com/user-attachments/assets/08d7f715-8d3f-433a-adbd-ec0c9ceb759c" />
+
+
+Terraform provisioned the Azure infrastructure, including a Windows virtual machine, virtual network, subnet, network interface, Network Security Group (NSG), and public IP address.
+
+[PASTE SCREENSHOT HERE]
+
 ## Key Takeaways
 
-This project demonstrates Infrastructure as Code (IaC) using Terraform to automate Azure resource deployment instead of manually creating resources through the Azure Portal.
+This project demonstrates Infrastructure as Code (IaC) using Terraform to provision and manage Azure infrastructure, including resource groups, virtual networks, subnets, network security controls, public IP addressing, network interfaces, and a Windows virtual machine. The deployment was validated in Microsoft Azure and verified through Terraform plan and state.
 
 ## Author
 
